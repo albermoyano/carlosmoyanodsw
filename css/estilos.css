@@ -3,9 +3,10 @@
     padding: 0;
 }
 body{
-    background: rgba(25, 10, 49, 0.8);
+    background: rgba(13, 0, 32, 0.8);
     
 }
+/*codigo para modificar el menu del header*/
 .menu-principal{
     width: 100%;
     height: 125px;
@@ -37,6 +38,7 @@ body{
     font-size: 3em;
     transition: all 2s;
 }
+/*codigo para modificar el menu de nav*/
 .menu{
     width: 50%;
     height: 50%;
@@ -57,15 +59,14 @@ body{
     color: white;
     transition: all 1s;
 }
-.submenu li a:hover, 
-.submenu a.activo {
+.submenu li a:hover{
     font-size: 1.2em;
     background-color: rgba(255,0,0,0.3);
     border-radius: 12px;
     transition: all 1s;
 }
 
-
+/*codigo pa modificar el bloque de presentacion*/
 .contenedor-presentacion{
     width: 100%;
     margin: auto;
@@ -91,7 +92,7 @@ body{
     
 }
 .contenedor-info{
-    color: rgba(0,0,0,0.8);
+    *color: rgba(0,0,0,0.8);
     margin-left: 3em;
 
     display: flex;
@@ -111,6 +112,25 @@ body{
     position: relative;
     top: 2em;
 }
+.contenedor-descripcion{
+   
+    *margin-left: 3em;
+
+    
+    
+    
+}
+.contenedor-descripcion h4{
+    width: 50%;
+    color: whitesmoke;
+    font-size: 1.2em;
+    position: relative;
+    left: 1em;
+    top: 8em;
+   
+    
+}
+
 
 .contenedor-promo{
     width: 100%;
@@ -131,8 +151,7 @@ body{
 }
 .contenedor-promo:hover{
     background-image: url(/dsw/img/sinneruno.jpg);
-    *width: 1300px;
-    *transition: all 1s;
+    
     
 }
 .contenedor-promo-info{
@@ -232,6 +251,70 @@ body{
     transform: scale(1.5);
     transform-origin: center;
 }
+.peliculas-cinco{
+    background-image: url(/dsw/img/alertaroja.jpg);
+    background-size: cover;
+}
+.peliculas-cinco:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
+.peliculas-seis{
+    background-image: url(/dsw/img/batman.jpg);
+    background-size: cover;
+}
+.peliculas-seis:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
+.peliculas-ocho{
+    background-image: url(/dsw/img/screamuno.jpg);
+    background-size: cover;
+}
+.peliculas-ocho:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
+.peliculas-nueve{
+    background-image: url(/dsw/img/archivo81.jpg);
+    background-size: cover;
+}
+.peliculas-nueve:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
+.peliculas-diez{
+    background-image: url(/dsw/img/swuno.jpg);
+    background-size: cover;
+}
+.peliculas-diez:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
+.peliculas-once{
+    background-image: url(/dsw/img/avatarfondo.jpg);
+    background-size: cover;
+}
+.peliculas-once:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
+.peliculas-doce{
+    background-image: url(/dsw/img/sinneruno.jpg);
+    background-size: cover;
+}
+.peliculas-doce:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
+.peliculas-trece{
+    background-image: url(/dsw/img/venomdos.jpg);
+    background-size: cover;
+}
+.peliculas-trece:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
 
 
 
@@ -280,28 +363,7 @@ body{
     *border: silver 1px solid;
    
 }
-.caja-f{
-    background-image: url(/img/faceboock.png);
-    background-size: cover;
-    background-position: center center;
-    float: left;
-    left: 1em;
-}
-.caja-i{
-    background-image: url(/img/instagrame.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-.caja-w{
-    background-image: url(/img/whatsapp.png);
-    background-size: cover;
-    background-position: center center;
-    
-}
-img{
-    width: 100%;
-    height: 100%;
-}
+
 .informacion-adicional p{
     color: silver;
     float: left;
