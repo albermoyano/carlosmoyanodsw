@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(25, 10, 49, 0.8);
+    
+}
+.menu-principal{
+    width: 100%;
+    height: 125px;
+    background: rgba(0,0,0,0.8);
+    position: sticky;
+    top: 0;
+    
+
+    /*flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.titulo-header{
+    margin-left: 2em;
+    color: red;
+    font-size: 2em;
+    transition: all 2s;
+}
+.titulo-rojo{
+    color: red;
+}
+.titulo-blanco{
+    color: seashell;
+}
+.titulo-header:hover{
+    font-size: 3em;
+    transition: all 2s;
+}
+.menu{
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu .submenu li{
+    list-style: none;
+    display: inline;
+}
+.submenu li a{
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    transition: all 1s;
+}
+.submenu li a:hover, 
+.submenu a.activo {
+    font-size: 1.2em;
+    background-color: rgba(255,0,0,0.3);
+    border-radius: 12px;
+    transition: all 1s;
+}
+
+
+.contenedor-presentacion{
+    width: 100%;
+    margin: auto;
+    margin-top: 3em;
+    min-height: 30em;
+    background-image: url(/dsw/img/ozark.jpg);
+    background-position: top 1em;
+    background-size: cover;
+    transition: all 1s;
+   
+   
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.contenedor-presentacion:hover{
+    background-image: url(/dsw/img/ozarkdos.jpg);
+    *width: 1300px;
+    *transition: all 1s;
+    
+}
+.contenedor-info{
+    color: rgba(0,0,0,0.8);
+    margin-left: 3em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contenedor-info h3{
+    width: 50%;
+    color: whitesmoke;
+    font-size: 3em;
+   
+    
+}
+.contenedor-info p{
+    width: 30%;
+    color: whitesmoke;
+    position: relative;
+    top: 2em;
+}
+
+.contenedor-promo{
+    width: 100%;
+    margin: auto;
+    margin-top: 3em;
+    min-height: 30em;
+    background-image: url(/dsw/img/sinner.jpg);
+    background-position: top 1em;
+    background-size: cover;
+    transition: all 1s;
+   
+   
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.contenedor-promo:hover{
+    background-image: url(/dsw/img/sinneruno.jpg);
+    *width: 1300px;
+    *transition: all 1s;
+    
+}
+.contenedor-promo-info{
+    color: rgba(0,0,0,0.8);
+    margin-left: 3em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contenedor-promo-info h3{
+    width: 50%;
+    color: whitesmoke;
+    font-size: 3em;
+   
+    
+}
+.contenedor-promo-info h4{
+    width: 50%;
+    color: whitesmoke;
+    font-size: 2em;
+}
+.contenedor-promo-info p{
+    width: 30%;
+    color: whitesmoke;
+    position: relative;
+    top: 2em;
+}
+.contenedor-principal{
+    margin: auto;
+    margin-top: 2em;
+    width: 1200px;
+    min-height: 250px;
+    *border: solid 1px white;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    *justify-content: space-between;
+    
+
+}
+.contenedor-titulo-peliculas{
+    width: 16em;
+    height: auto;
+    *border: blue 1px solid;
+    color: whitesmoke;
+    
+
+   
+}
+.contenedor-secundario{
+    width: 100%;
+    min-height: 200px;
+    margin: auto;
+    *border: springgreen 1px solid;
+    
+    display: flex;
+    flex-direction: row;
+
+}
+.contenedor-pelicula{
+    width: 25%;
+    min-height: 190px;
+    *border: solid 2px brown;
+    
+}
+.peliculas-uno{
+    background-image: url(/dsw/img/hombrearaña.jpg);
+    background-size: cover;
+}
+.peliculas-uno:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
+.peliculas-dos{
+    background-image: url(/dsw/img/vengadores.jpg);
+    background-size: cover;
+}
+.peliculas-dos:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
+.peliculas-tres{
+    background-image: url(/dsw/img/ozarkdos.jpg);
+    background-size: cover;
+}
+.peliculas-tres:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
+.peliculas-cuatro{
+    background-image: url(/dsw/img/mardelatranquilidad.jpg);
+    background-size: cover;
+}
+.peliculas-cuatro:hover{
+    transform: scale(1.5);
+    transform-origin: center;
+}
+
+
+
+.foot-menu{
+    width: 100%;
+    height: 200px;
+    background: rgba(0,0,0,0.8);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor-foot{
+    color: silver;
+    font-weight: 10px;
+}
+.submenu-foot li{
+    list-style: none;
+    padding: 5px 5px;
+}
+.submenu-foot li a{
+    text-decoration: none;
+    color: silver;
+    
+}
+.contenedor-link a{
+    display: block;
+    color: silver;
+    text-decoration: none;
+    padding: 5px ;
+
+}
+.redes{
+    width: 50%;
+    height: 50%;
+    *border: solid 1px silver ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.caja{
+    width: 15%;
+    height: 40%;
+    *border: silver 1px solid;
+   
+}
+.caja-f{
+    background-image: url(/img/faceboock.png);
+    background-size: cover;
+    background-position: center center;
+    float: left;
+    left: 1em;
+}
+.caja-i{
+    background-image: url(/img/instagrame.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.caja-w{
+    background-image: url(/img/whatsapp.png);
+    background-size: cover;
+    background-position: center center;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.informacion-adicional p{
+    color: silver;
+    float: left;
+    left: 10px;
+}
