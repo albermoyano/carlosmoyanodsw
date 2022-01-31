@@ -94,11 +94,11 @@ body{
 
 }
 .contenedor-presentacion{
-    background-image: url(/dsw/img/ozark.jpg);
+    background-image: url(../img/ozark.jpg);
 }
 
 .contenedor-presentacion:hover{
-    background-image: url(/dsw/img/ozarkdos.jpg);   
+    background-image: url(../img/ozarkdos.jpg);   
 }
 
 .contenedor-info h3{
