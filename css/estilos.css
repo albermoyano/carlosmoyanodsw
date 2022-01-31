@@ -132,14 +132,14 @@ body{
 
 
 .promo{
-    background-image: url(/dsw/img/sinner.jpg);
+    background-image: url(../img/sinner.jpg);
     background-position: top 1em;
     background-size: cover;
     margin-bottom: 20px;
 
 }
 .promo:hover{
-    background-image: url(/dsw/img/sinneruno.jpg);
+    background-image: url(../img/sinneruno.jpg);
     
     
 }
@@ -186,7 +186,7 @@ body{
 }
 
 .peliculas-uno{
-    background-image: url(/dsw/img/hombrearaña.jpg);
+    background-image: url(../img/hombrearaña.jpg);
     background-size: cover;
 }
 .peliculas-uno:hover{
@@ -194,7 +194,7 @@ body{
     transform-origin: center;
 }
 .peliculas-dos{
-    background-image: url(/dsw/img/vengadores.jpg);
+    background-image: url(../img/vengadores.jpg);
     background-size: cover;
 }
 .peliculas-dos:hover{
@@ -202,7 +202,7 @@ body{
     transform-origin: center;
 }
 .peliculas-tres{
-    background-image: url(/dsw/img/ozarkdos.jpg);
+    background-image: url(../img/ozarkdos.jpg);
     background-size: cover;
 }
 .peliculas-tres:hover{
@@ -210,7 +210,7 @@ body{
     transform-origin: center;
 }
 .peliculas-cuatro{
-    background-image: url(/dsw/img/mardelatranquilidad.jpg);
+    background-image: url(../img/mardelatranquilidad.jpg);
     background-size: cover;
 }
 .peliculas-cuatro:hover{
@@ -218,7 +218,7 @@ body{
     transform-origin: center;
 }
 .peliculas-cinco{
-    background-image: url(/dsw/img/alertaroja.jpg);
+    background-image: url(../img/alertaroja.jpg);
     background-size: cover;
 }
 .peliculas-cinco:hover{
@@ -226,7 +226,7 @@ body{
     transform-origin: center;
 }
 .peliculas-seis{
-    background-image: url(/dsw/img/batman.jpg);
+    background-image: url(../img/batman.jpg);
     background-size: cover;
 }
 .peliculas-seis:hover{
@@ -234,7 +234,7 @@ body{
     transform-origin: center;
 }
 .peliculas-ocho{
-    background-image: url(/dsw/img/screamuno.jpg);
+    background-image: url(../img/screamuno.jpg);
     background-size: cover;
 }
 .peliculas-ocho:hover{
@@ -242,7 +242,7 @@ body{
     transform-origin: center;
 }
 .peliculas-nueve{
-    background-image: url(/dsw/img/archivo81.jpg);
+    background-image: url(../img/archivo81.jpg);
     background-size: cover;
 }
 .peliculas-nueve:hover{
@@ -250,7 +250,7 @@ body{
     transform-origin: center;
 }
 .peliculas-diez{
-    background-image: url(/dsw/img/swuno.jpg);
+    background-image: url(../img/swuno.jpg);
     background-size: cover;
 }
 .peliculas-diez:hover{
@@ -258,7 +258,7 @@ body{
     transform-origin: center;
 }
 .peliculas-once{
-    background-image: url(/dsw/img/avatarfondo.jpg);
+    background-image: url(../img/avatarfondo.jpg);
     background-size: cover;
 }
 .peliculas-once:hover{
@@ -266,7 +266,7 @@ body{
     transform-origin: center;
 }
 .peliculas-doce{
-    background-image: url(/dsw/img/sinneruno.jpg);
+    background-image: url(../img/sinneruno.jpg);
     background-size: cover;
 }
 .peliculas-doce:hover{
@@ -274,7 +274,7 @@ body{
     transform-origin: center;
 }
 .peliculas-trece{
-    background-image: url(/dsw/img/venomdos.jpg);
+    background-image: url(../img/venomdos.jpg);
     background-size: cover;
 }
 .peliculas-trece:hover{
@@ -287,7 +287,7 @@ body{
     margin: auto;
     margin-top: 3em;
     min-height: 30em;
-    background-image: url(/dsw/img/007uno.jpg);
+    background-image: url(../img/007uno.jpg);
     background-position: top 1em;
     background-size: cover;
     transition: all 1s;
@@ -301,7 +301,7 @@ body{
 }
 
 .contenedor-presentacion-peliculas:hover{
-    background-image: url(/dsw/img/007.jpg);
+    background-image: url(../img/007.jpg);
     *width: 1300px;
     *transition: all 1s;
     
@@ -311,7 +311,7 @@ body{
     margin: auto;
     margin-top: 3em;
     min-height: 30em;
-    background-image: url(/dsw/img/mardeltarn.jpg);
+    background-image: url(../img/mardeltarn.jpg);
     background-position: top 1em;
     background-size: cover;
     transition: all 1s;
@@ -325,7 +325,7 @@ body{
 }
 
 .contenedor-presentacion-series:hover{
-    background-image: url(/dsw/img/mar\ de\ la\ tranq.jpg);
+    background-image: url(../img/mar\ de\ la\ tranq.jpg);
     
 }
 
