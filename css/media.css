@@ -1,0 +1,112 @@
+
+@media screen and (max-width:600px){
+    .menu-principal{
+        flex-direction: column;
+
+    }
+    .titulo-header{
+        text-align: center;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .menu{
+        flex-direction: column;
+        width: 100%;
+        font-size: 16px;
+    }
+    .contenedor-principal{
+        
+    
+        margin-bottom: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .contenedor-secundario{
+        flex-direction: row;
+    }
+}
+@media screen and (max-width:400px){
+    .menu-principal{
+        flex-direction: column;
+        position: relative;
+
+    }
+    .titulo-header{
+        text-align: center;
+        font-size: 24px;
+        margin-top: 15px;
+    }
+    .menu{
+        flex-direction: column;
+        width: 100%;
+        font-size: 12px;
+    }
+    .submenu li a{
+        text-decoration: none;
+        padding: 5px 10px;
+        color: white;
+        transition: all 1s;
+    }
+    .contenedor-presentacion{
+        width: 100%;
+        margin: auto;
+        *margin-top: 3em;
+        *min-height: 30em;
+        background-position: center center;
+        background-size: cover;
+        transition: all 1s;
+       
+        display: flex;
+        align-items: end;
+    
+    }
+    .contenedor-principal{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        
+    }
+
+    .contenedor-secundario{
+        flex-direction: column;
+        margin: auto;
+        margin-left: 15px;
+        justify-content: end;
+    }
+    .contenedor-info h3{
+        font-size: 22px;
+    }
+   
+    .contenedor-descripcion h4{
+        width: 50%;
+        color: whitesmoke;
+        font-size: 12px;
+       margin-left: 15px;
+       
+        
+    }
+    .contenedor-pelicula{
+        margin-left: 30px;
+    }
+    .submenu-foot li a{
+        text-decoration: none;
+        color: silver;
+        font-size: 12px;
+        
+    }
+    .contenedor-link a, p{
+        display: block;
+        color: silver;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 5px ;
+    
+    }
+    
+}

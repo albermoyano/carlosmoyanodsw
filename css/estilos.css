@@ -1,9 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 body{
-    background: rgba(13, 0, 32, 0.8);
+    background: rgba(13, 13, 14, 0.8);
+    
+}
+/*carrusel en pagina mi lista al final*/
+.contenedor-carrusel{
+    width: 300px;
+    min-height: 100px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+
     
 }
 /*codigo para modificar el menu del header*/
@@ -72,54 +83,42 @@ body{
     margin: auto;
     margin-top: 3em;
     min-height: 30em;
-    background-image: url(/dsw/img/ozark.jpg);
     background-position: top 1em;
     background-size: cover;
     transition: all 1s;
    
-   
-
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items: end;
+    
+    
 
+}
+.contenedor-presentacion{
+    background-image: url(/dsw/img/ozark.jpg);
 }
 
 .contenedor-presentacion:hover{
-    background-image: url(/dsw/img/ozarkdos.jpg);
-    *width: 1300px;
-    *transition: all 1s;
-    
+    background-image: url(/dsw/img/ozarkdos.jpg);   
 }
-.contenedor-info{
-    *color: rgba(0,0,0,0.8);
-    margin-left: 3em;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 .contenedor-info h3{
     width: 50%;
     color: whitesmoke;
-    font-size: 3em;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+
    
     
 }
 .contenedor-info p{
     width: 30%;
     color: whitesmoke;
-    position: relative;
-    top: 2em;
-}
-.contenedor-descripcion{
-   
-    *margin-left: 3em;
+    margin-left: 2em;
+    margin-bottom: 1em;
 
-    
-    
-    
 }
+
 .contenedor-descripcion h4{
     width: 50%;
     color: whitesmoke;
@@ -132,73 +131,38 @@ body{
 }
 
 
-.contenedor-promo{
-    width: 100%;
-    margin: auto;
-    margin-top: 3em;
-    min-height: 30em;
+.promo{
     background-image: url(/dsw/img/sinner.jpg);
     background-position: top 1em;
     background-size: cover;
-    transition: all 1s;
-   
-   
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin-bottom: 20px;
 
 }
-.contenedor-promo:hover{
+.promo:hover{
     background-image: url(/dsw/img/sinneruno.jpg);
     
     
 }
-.contenedor-promo-info{
-    color: rgba(0,0,0,0.8);
-    margin-left: 3em;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.contenedor-promo-info h3{
-    width: 50%;
-    color: whitesmoke;
-    font-size: 3em;
-   
-    
-}
-.contenedor-promo-info h4{
-    width: 50%;
-    color: whitesmoke;
-    font-size: 2em;
-}
-.contenedor-promo-info p{
-    width: 30%;
-    color: whitesmoke;
-    position: relative;
-    top: 2em;
-}
 .contenedor-principal{
     margin: auto;
     margin-top: 2em;
     width: 1200px;
     min-height: 250px;
-    *border: solid 1px white;
+
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    *justify-content: space-between;
+    align-items: end;
     
 
 }
 .contenedor-titulo-peliculas{
     width: 16em;
     height: auto;
-    *border: blue 1px solid;
     color: whitesmoke;
+    font-size: 1em;
     
 
    
@@ -207,18 +171,20 @@ body{
     width: 100%;
     min-height: 200px;
     margin: auto;
-    *border: springgreen 1px solid;
     
     display: flex;
-    flex-direction: row;
+    flex-direction: end;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 .contenedor-pelicula{
     width: 25%;
     min-height: 190px;
-    *border: solid 2px brown;
+
     
 }
+
 .peliculas-uno{
     background-image: url(/dsw/img/hombrearaña.jpg);
     background-size: cover;
@@ -316,8 +282,56 @@ body{
     transform-origin: center;
 }
 
+.contenedor-presentacion-peliculas{
+    width: 100%;
+    margin: auto;
+    margin-top: 3em;
+    min-height: 30em;
+    background-image: url(/dsw/img/007uno.jpg);
+    background-position: top 1em;
+    background-size: cover;
+    transition: all 1s;
+   
+   
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.contenedor-presentacion-peliculas:hover{
+    background-image: url(/dsw/img/007.jpg);
+    *width: 1300px;
+    *transition: all 1s;
+    
+}
+.contenedor-presentacion-series{
+    width: 100%;
+    margin: auto;
+    margin-top: 3em;
+    min-height: 30em;
+    background-image: url(/dsw/img/mardeltarn.jpg);
+    background-position: top 1em;
+    background-size: cover;
+    transition: all 1s;
+   
+   
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.contenedor-presentacion-series:hover{
+    background-image: url(/dsw/img/mar\ de\ la\ tranq.jpg);
+    
+}
 
 
+
+/*seccion pie de pagina - footer*/
 .foot-menu{
     width: 100%;
     height: 200px;
@@ -325,7 +339,7 @@ body{
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .contenedor-foot{
@@ -348,24 +362,4 @@ body{
     padding: 5px ;
 
 }
-.redes{
-    width: 50%;
-    height: 50%;
-    *border: solid 1px silver ;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.caja{
-    width: 15%;
-    height: 40%;
-    *border: silver 1px solid;
-   
-}
 
-.informacion-adicional p{
-    color: silver;
-    float: left;
-    left: 10px;
-}
